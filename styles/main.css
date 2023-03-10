@@ -7,12 +7,7 @@
   padding: 0;
 }
 
-p{
-  margin: 0.75rem;
-}
-
 body{
-  margin: 0;
   font-family: Inter,-apple-system,BlinkMacSystemFont,sans-serif;
   color: black;
 }
@@ -21,16 +16,18 @@ header{
   display: flex;
   align-items: center;
   justify-content:space-evenly;
+  margin: 20px;
 }
 
 #author{
   font-size: 2rem;
   text-decoration: underline 5px var(--main-color);
   text-underline-offset: 6px;
+  margin: 0.75rem;
 }
 
 nav{
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 nav ul{
@@ -62,6 +59,7 @@ nav ul a:hover, nav ul a:focus{
 
 #anim-box{
   display: flex;
+  padding-top: 25px;
   justify-content: center;
   color: var(--main-color);
 }
