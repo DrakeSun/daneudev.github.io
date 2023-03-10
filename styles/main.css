@@ -1,0 +1,56 @@
+:root{
+  --main-color: rgb(14, 102, 102);
+}
+
+body{
+  margin: 0;
+  font-family: Inter,-apple-system,BlinkMacSystemFont,sans-serif;
+  color: black;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+#author{
+  font-size: 2rem;
+  text-decoration: underline 5px var(--main-color);
+  text-underline-offset: 6px;
+}
+
+nav{
+  margin-left: 30%;
+}
+
+nav ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul a{
+  font-size: 1.5rem;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+nav ul a:hover{
+  color: black;
+}
+
+#what-i-code{
+  display:grid;
+  justify-content: center;
+  text-align: center;
+  margin: 7rem 0 7rem 0;
+  background-color: lightgray;
+  font-size: 1.5rem;
+}
+
+#anim-box{
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+}
