@@ -2,6 +2,15 @@
   --main-color: rgb(14, 102, 102);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0.75rem;
+}
+
 body{
   margin: 0;
   font-family: Inter,-apple-system,BlinkMacSystemFont,sans-serif;
@@ -21,7 +30,7 @@ header{
 }
 
 nav{
-  margin-left: 30%;
+  margin-top: 15px;
 }
 
 nav ul{
@@ -36,7 +45,7 @@ nav ul a{
   text-decoration: none;
 }
 
-nav ul a:hover{
+nav ul a:hover nav ul a:focus{
   color: black;
 }
 
@@ -44,7 +53,9 @@ nav ul a:hover{
   display:grid;
   justify-content: center;
   text-align: center;
-  margin: 7rem 0 7rem 0;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 5rem;
+  border: 3px dashed gray;
   background-color: lightgray;
   font-size: 1.5rem;
 }
