@@ -55,18 +55,29 @@ nav ul a:hover{
   justify-content: center;
   text-align: center;
   padding: 5rem;
-  border: 2px solid gray;
-  background-color: lightgray;
+  background-image: url("../graphics/fiverr_tlo.png");
+  background-size: cover;
+  background-position: center;
   font-size: 1.5rem;
+}
+
+#what-i-do #box{
+  border: 3px transparent var(--main-color);
+  border-radius: 15px;
+  padding: 50px;
+  min-width: 160px;
+  max-width: 160px;
+  background-color: rgba(14, 102, 102, 0.151);
 }
 
 #anim-box{
   display: flex;
   padding-top: 25px;
+  justify-content: center;
 }
 #anim-text{
   color: var(--main-color);
 }
 #anim-text-end{
-  color: black;
+  color: rgba(14, 102, 102, 0);
 }

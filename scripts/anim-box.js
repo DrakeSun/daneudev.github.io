@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 var animTextEnd = document.querySelector("#anim-text-end");
 function updateAnimTextEnd(){
   if(animTextEnd.style.color == "lightgray")
-    animTextEnd.style.color = "black";
+    animTextEnd.style.color = "rgba(14, 102, 102, 0)";
   else 
     animTextEnd.style.color = "lightgray";
 }
