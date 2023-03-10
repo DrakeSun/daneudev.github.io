@@ -54,9 +54,8 @@ nav ul a:hover{
   display:grid;
   justify-content: center;
   text-align: center;
-  margin: 0.5rem 0 0.5rem 0;
   padding: 5rem;
-  border: 3px dashed gray;
+  border: 2px solid gray;
   background-color: lightgray;
   font-size: 1.5rem;
 }
@@ -64,6 +63,10 @@ nav ul a:hover{
 #anim-box{
   display: flex;
   padding-top: 25px;
-  justify-content: center;
+}
+#anim-text{
   color: var(--main-color);
+}
+#anim-text-end{
+  color: black;
 }
