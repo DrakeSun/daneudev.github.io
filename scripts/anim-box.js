@@ -55,3 +55,12 @@ function updateAnimTextEnd(){
 setInterval(updateAnimTextEnd, 500);
 
 });
+
+function nav(){
+  var x = document.getElementById("nav-right");
+    if (x.className === "pc-nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "pc-nav";
+    }
+}

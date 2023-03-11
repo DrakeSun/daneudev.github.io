@@ -50,6 +50,10 @@ nav ul a:hover{
   color: black;
 }
 
+#nav-right #icon{
+  display: none;
+}
+
 #what-i-do{
   display:grid;
   justify-content: center;
@@ -62,12 +66,7 @@ nav ul a:hover{
 }
 
 #what-i-do #box{
-  border: 3px transparent var(--main-color);
-  border-radius: 15px;
-  padding: 50px;
-  min-width: 160px;
-  max-width: 160px;
-  background-color: rgba(14, 102, 102, 0.151);
+  padding: 35px;
   color: lightgray;
 }
 
@@ -81,4 +80,19 @@ nav ul a:hover{
 }
 #anim-text-end{
   color: rgba(14, 102, 102, 0);
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    justify-content: space-between;
+  }
+  #nav-right ul li a{
+    display: none;
+  }
+  #nav-right #icon{
+    display: block;
+  }
+  #what-i-do{
+    padding: 2.5rem;
+  }
 }
