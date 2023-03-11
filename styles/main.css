@@ -68,6 +68,7 @@ nav ul a:hover{
   min-width: 160px;
   max-width: 160px;
   background-color: rgba(14, 102, 102, 0.151);
+  color: lightgray;
 }
 
 #anim-box{
